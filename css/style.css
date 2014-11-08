@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: OpenSansL;
+    src: url(../fonts/OpenSans-Light.ttf); 
+}
+
+@font-face {
+    font-family: OpenSansR;
+    src: url(../fonts/OpenSans-Regular_0.ttf); 
+}
+
+.line{
+	width: 100%;
+	height: 0.4em;
+	background: #e51c24;
+	margin-bottom: 3em;
+}
+
+.page{
+	padding: 0;
+}
+
+.buttons{
+	margin-bottom: 3em;
+	padding: 0 15px;
+}
+
+.blog{
+	margin-left: 2%;
+	background: #bdbdbd;
+	border: none;
+	color: #f7f7f7;
+	padding: 0.7em;
+	width: 90px;
+	outline: none;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	font-family: OpenSansR, sans-serif;
+}
+
+.blog:hover{
+	background: #a09d9d;
+}
+
+.blog:active{
+	background: #d0cece;
+}
+
+.team{
+	background: #bdbdbd;
+	border:none;
+	color: #f7f7f7;
+	padding: 0.7em;
+	width: 90px;
+	outline: none;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	font-family: OpenSansR, sans-serif;
+}
+
+.team:hover{
+	background: #a09d9d;
+}
+
+.team:active{
+	background: #d0cece;
+}
+
+.content p{
+	text-align: justify;
+	margin-bottom: 20px;
+	font-family: OpenSansL, sans-serif;
+}
+
+.content span{
+	display: block;
+	color: #9d9d9d;
+	margin-bottom: 13px;
+	font-family: OpenSansL, sans-serif;
+}
+
+.logo-img{
+	margin-bottom: 2em;
+}
