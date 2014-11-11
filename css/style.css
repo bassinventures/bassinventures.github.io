@@ -29,8 +29,9 @@
 	padding: 0 15px;
 }
 
-.blog{
-	margin-left: 2%;
+.blog, 
+.team {
+	
 	background: #bdbdbd;
 	border: none;
 	color: #f7f7f7;
@@ -40,34 +41,24 @@
 	font-weight: 300;
 	letter-spacing: 0.01em;
 	font-family: OpenSansR, sans-serif;
+    text-align: center;
+    border-radius: 0 !important;
 }
 
-.blog:hover{
-	background: #a09d9d;
+.blog:hover,
+.team:hover {
+	background: #a09d9d !important;
+    color: #f7f7f7;
 }
 
-.blog:active{
-	background: #d0cece;
+.blog:active,
+.team:active {
+	background: #d0cece !important;
+    color: #f7f7f7;
 }
 
-.team{
-	background: #bdbdbd;
-	border:none;
-	color: #f7f7f7;
-	padding: 0.7em;
-	width: 90px;
-	outline: none;
-	font-weight: 300;
-	letter-spacing: 0.01em;
-	font-family: OpenSansR, sans-serif;
-}
-
-.team:hover{
-	background: #a09d9d;
-}
-
-.team:active{
-	background: #d0cece;
+.nav-pills li + li{
+	margin-left: 25px;
 }
 
 .content p{
