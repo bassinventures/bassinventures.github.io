@@ -77,3 +77,13 @@
 .logo-img{
 	margin-bottom: 2em;
 }
+
+.team_container a.team{
+	border-radius: 4px;
+    display: block;
+    padding: 10px 15px;
+    position: relative;	
+}
+.team_container a.team:hover{
+	text-decoration: none;
+}
